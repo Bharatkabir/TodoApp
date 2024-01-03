@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 27px auto;
+    box-shadow: 0 0 15px rgb(148 143 123 / 71%);
+}
+
+.card-title {
+    background-color: rgb(238, 176, 5);
+    color: white;
+    height: 50px;
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(15, 14, 14, 0.5); 
+  }
+ .main input{
+    height: 40px;
+    width: 434px;
+    margin: 10px 0 15px -10px;
+ }
+ .main button{
+    background-color: #a5eca5;
+    color: rgb(48, 43, 43);
+    margin: 0 0 0 5px;
+    border: none;
+    padding: 5px 10px;
+ }
+
+ .main button:hover{
+    background-color: #3db93d;
+    color: white;
+ }
+ .task h4{
+    margin: 1px 0 0 10px;
+    color: #6f5ce4;
+ }
+ .note{
+   height: 50px;
+   width: 500px;
+   display: flex;
+   align-items: center;
+   margin: 12px;
+   box-shadow: 0 0 15px rgb(148 143 123 / 71%);
+   justify-content: flex-start;
+ }
+ .note p{
+   margin: 15px;
+   font-size: small;
+ }
+.task .note {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ :host ::ng-deep .task .note {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+ }
+ .btn button{
+   background-color: white;
+   border: 1px solid #43bfe7;
+ }
+ .error-message {  
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
